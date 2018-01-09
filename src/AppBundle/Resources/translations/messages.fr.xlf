@@ -1,0 +1,303 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+   <file source-language="es" datatype="plaintext" original="file.ext">
+      <body>
+         <trans-unit id="1">
+            <source>Bienvenido a nuestro blog científico.</source>
+            <target>Bienvenue sur notre blog scientifique.</target>
+         </trans-unit>
+         <trans-unit id="2">
+            <source>Echa un vistazo a nuestros últimos artículos más destacados de la semana.</source>
+            <target>Découvrez nos derniers faits saillants de la semaine.</target>
+         </trans-unit>
+         <trans-unit id="3">
+            <source>Seguir leyendo</source>
+            <target>Continuer à lire</target>
+         </trans-unit>
+         <trans-unit id="4">
+            <source>El sueldo más antiguo del mundo fue cobrado en cerveza</source>
+            <target>Le salaire le plus ancien au monde était facturé en bière</target>
+         </trans-unit>
+         <trans-unit id="5">
+            <source>¿Los perros son más inteligentes que los gatos?</source>
+            <target>Les chiens sont-ils plus intelligents que les chats?</target>
+         </trans-unit>
+         <trans-unit id="6">
+            <source>Éste es el pez que habita a mayor profundidad de todo el mundo</source>
+            <target>C'est le poisson qui vit au plus profond du monde</target>
+         </trans-unit>
+         <trans-unit id="7">
+            <source>Contempla una prueba nuclear de 1953 desintegrando una casa en alta resolución</source>
+            <target>Il envisage un essai nucléaire de 1953 désintégrant une maison en haute résolution</target>
+         </trans-unit>
+         <trans-unit id="8">
+            <source>Se mide con precisión el tiempo que tarda el electrón en abandonar el átomo</source>
+            <target>Le temps qu'il faut à l'électron pour quitter l'atome est précisément mesuré</target>
+         </trans-unit>
+         <trans-unit id="9">
+            <source>Si no te gusta el deporte quizá es que sufres alergia hereditaria</source>
+            <target>Si vous n'aimez pas le sport, vous souffrez peut-être d'une allergie héréditaire</target>
+         </trans-unit>
+         <trans-unit id="10">
+            <source>¿Cuántas personas han muerto por erupciones de los volcanes?</source>
+            <target>Combien de personnes sont mortes des éruptions de volcans?</target>
+         </trans-unit>
+         <trans-unit id="11">
+            <source>El cero tiene 500 años más de lo que se pensaba, según este manuscrito</source>
+            <target>Le zéro est 500 ans plus vieux qu'on ne le pensait auparavant, selon ce manuscrit</target>
+         </trans-unit>
+         <trans-unit id="12">
+            <source>La ciencia exonera a las grasas: así es como te ayudan a bajar de peso</source>
+            <target>La science exonère les graisses: voilà comment elles vous aident à perdre du poids</target>
+         </trans-unit>
+         <trans-unit id="13">
+            <source>Las escamas de los preces fueron los precursores de nuestros dientes</source>
+            <target>Les écailles des prières étaient les précurseurs de nos dents</target>
+         </trans-unit>
+         <trans-unit id="14">
+            <source>¿Qué es el acoso sexual? La respuesta depende del país, el sexo y la edad</source>
+            <target>Qu'est-ce que le harcèlement sexuel? La réponse dépend du pays, du sexe et de l'âge</target>
+         </trans-unit>
+         <trans-unit id="15">
+            <source>Este material crece hasta 100 veces su tamaño cuando empieza a arder</source>
+            <target>Ce matériau pousse jusqu'à 100 fois sa taille lorsqu'il commence à brûler</target>
+         </trans-unit>
+         <trans-unit id="16">
+            <source>¿Estamos a las puertas de un nuevo tipo de ordenador cuántico?</source>
+            <target>Sommes-nous aux portes d'un nouveau type d'ordinateur quantique?</target>
+         </trans-unit>
+         <trans-unit id="17">
+            <source>China ha construido la mayor instalación del mundo para nanociencia</source>
+            <target>La Chine a construit la plus grande installation au monde pour les nanosciences</target>
+         </trans-unit>
+         <trans-unit id="18">
+            <source>Todo lo que hemos editado en Wikipedia durante el año 2015</source>
+            <target>Tout ce que nous avons édité dans Wikipedia au cours de l'année 2015</target>
+         </trans-unit>
+         <trans-unit id="19">
+            <source>Ahora los robots blandos ya pueden tener superfuerza gracias a estos músculos</source>
+            <target>Maintenant, les robots mous peuvent déjà avoir une super force grâce à ces muscles</target>
+         </trans-unit>
+         <trans-unit id="20">
+            <source>¿Por qué es malo copiar de Wikipedia para hacer los deberes de clase?</source>
+            <target>Pourquoi est-ce mal de copier de Wikipédia pour faire les devoirs?</target>
+         </trans-unit>
+         <trans-unit id="21">
+            <source>La producción masiva de tejidos humanos puede llegar con esta nueva impresora 3D</source>
+            <target>La production de masse de tissus humains peut arriver avec cette nouvelle imprimante 3D</target>
+         </trans-unit>
+         <trans-unit id="22">
+            <source>¿Y si enviamos una sonda a Oumuamua?</source>
+            <target>Et si nous envoyons une sonde à Oumuamua?</target>
+         </trans-unit>
+         <trans-unit id="23">
+            <source>Los soldados romanos que cuidaban la ruta Vía Salaria recibían parte de su pago en sal. Esta parte era llamada "salarium argentum" (agregado de sal). De allí viene la palabra "salario". Sin emba...</source>
+            <target>Les soldats romains qui ont pris soin de la route Via Salaria ont reçu une partie de leur paiement en sel. Cette partie a été appelée "salarium argentum" (agrégat de sel). C'est de là que vient le mot «salaire». Sans embar ...</target>
+         </trans-unit>
+         <trans-unit id="24">
+            <source>Acostumbramos a pensar que los perros son bobos e inocentes y los gatos listos y maquiavélicos. Sin embargo, a juzgar por un nuevo estudio y teniendo en cuenta su número de neuronas, los perros pare...</source>
+            <target>Nous avons tendance à penser que les chiens sont stupides et innocents et que les chats sont intelligents et machiavéliques. Cependant, à en juger par une nouvelle étude et en tenant compte de leur nombre de neurones, les chiens s'arrêtent ...</target>
+         </trans-unit>
+         <trans-unit id="25">
+            <source>Pseudoliparis swirei es una especie de pez caracol que vive en la Fosa de las Marianas, el lugar más profundo de la Tierra. No en vano, este pez es capaz de habitar profunidades de 8.000 metros. H...</source>
+            <target>Pseudoliparis swirei est une espèce d'escargot qui vit dans la fosse des Mariannes, l'endroit le plus profond de la Terre. Pas en vain, ce poisson est capable d'habiter des profondeurs de 8.000 mètres. H ...</target>
+         </trans-unit>
+         <trans-unit id="26">
+            <source>El 17 de marzo de 1953, una explosión nuclear arrojó algo del segundo piso de una casa construida en Nevada Proving Grounds. La prueba, llamada "Annie", era parte de la operación más grande (Up...</source>
+            <target>Le 17 mars 1953, une explosion nucléaire a projeté quelque chose au deuxième étage d'une maison construite dans le Nevada Proving Grounds. Le test, appelé "Annie", faisait partie de la plus grande opération (Up ...</target>
+         </trans-unit>
+         <trans-unit id="27">
+            <source>0,000 000 000 000 000 02 segundos, o 20 milmillonésimas de una milmillonésima de segundo, es el tiempo que tarda el electrón en abandonar el átomo. Un nivel de precisión que ha sido medido por in...</source>
+            <target>0,000,000,000,000,000 02 secondes, ou 20 milliardièmes de milliardième de seconde, c'est le temps qu'il faut à l'électron pour quitter l'atome. Un niveau de précision qui a été mesuré par ...</target>
+         </trans-unit>
+         <trans-unit id="28">
+            <source>Hay quienes abominan de los gimnasios como espacios públicos y, por extensión, de cualquier ejercicio físico. No comprenden esa sensación de euforia o placer que dicen muchos sentir tras el esfuer...</source>
+            <target>Il y a ceux qui abominent les gymnases comme espaces publics et, par extension, tout exercice physique. Ils ne comprennent pas ce sentiment d'euphorie ou de plaisir que beaucoup ressentent après l'effort ...</target>
+         </trans-unit>
+         <trans-unit id="29">
+            <source>En promedio, unas 540 personas al año son las víctimas de las erupciones volcánicas. Entre 1500 y 2017, más de 278.000 personas. Son los datos que se desprenden de un estudio llevado a cabo por in...</source>
+            <target>En moyenne, quelque 540 personnes par an sont victimes d'éruptions volcaniques. Entre 1500 et 2017, plus de 278 000 personnes. Ce sont les données qui proviennent d'une étude réalisée par ...</target>
+         </trans-unit>
+         <trans-unit id="30">
+            <source>El viejo manuscrito indio de Bakhshali, texto contiene el registro más antiguo del número cero, data del siglo III o IV, según las últimas dataciones por radiocarbono. Es decir, que el número ...</source>
+            <target>Le vieux manuscrit indien de Bakhshali, texte contient le plus ancien enregistrement du nombre zéro, date du troisième ou quatrième siècle, selon la dernière datation au radiocarbone. C'est le nombre ...</target>
+         </trans-unit>
+         <trans-unit id="31">
+            <source>No sé si lo recordarás pero cuando yo era pequeña, aun ni pensaba en estudiar Nutrición y sabía que lo peor en la dieta eran las grasas, que era lo que debía limitar mi mama si quería adelgazar...</source>
+            <target>Je ne sais pas si vous vous en souviendrez mais quand j'étais petite, je ne pensais même pas à étudier la nutrition et je savais que la pire chose de mon régime était les graisses, ce qui me limitait la poitrine si je voulais perdre du poids ...</target>
+         </trans-unit>
+         <trans-unit id="32">
+            <source>Pequeñas escamas puntiagudas incrustadas en la piel llamadas "dentículos dérmicos", semejan dientes irregulares. Y es que, estas escamas de un antiguo linaje (tiburones, rayas y mantarrayas) posee ...</source>
+            <target>Les petites écailles pointues intégrées dans la peau appelées «denticules dermiques» ressemblent à des dents irrégulières. Et est-ce, ces échelles d'une ancienne lignée (requins, raies et raies) a ...</target>
+         </trans-unit>
+         <trans-unit id="33">
+            <source>Estamos asistiendo a una avalancha de acusaciones de acoso sexual, sobre todo en el ámbito del star system, lo que ha aumentado la conciencia de la prevalencia del acoso sexual. Sin embargo, no ex...</source>
+            <target>Nous assistons à une avalanche d'accusations de harcèlement sexuel, en particulier dans le domaine du système stellaire, qui a accru la sensibilisation à la prévalence du harcèlement sexuel. Cependant, pas ex ...</target>
+         </trans-unit>
+         <trans-unit id="34">
+            <source>Cuando un fragmento de tiocianato de mercurio (un compuesto de mercurio, azufre, carbono y nitrógeno que también se conoce como “Serpiente del faraón”) empieza a arder, se descompone en su prop...</source>
+            <target>Quand un fragment de mercure thiocyanate (un composé de mercure, de soufre, de carbone et d'azote qui est également connu comme "Serpent de Pharaon") commence à brûler, il se décompose dans sa prop ...</target>
+         </trans-unit>
+         <trans-unit id="35">
+            <source>Una nueva forma de construir una computadora cuántica usando un solo átomo ha sido propuesta teóricamente por Hannes Pichler y sus colegas, del Instituto de Física Atómica, Molecular y Óptica Te...</source>
+            <target>Une nouvelle façon de construire un ordinateur quantique utilisant un seul atome a été proposée théoriquement par Hannes Pichler et ses collègues, de l'Institut de physique atomique, moléculaire et optique Te ....</target>
+         </trans-unit>
+         <trans-unit id="36">
+            <source>A fin de desarrollar ordenadores más potentes y robots más inteligentes, China ha construido Nano-X, la mayor instalación del mundo de investigación multifuncional para nanociencia y nanotecnolog�...</source>
+            <target>Afin de développer des ordinateurs plus puissants et des robots plus intelligents, la Chine a construit Nano-X, la plus grande installation de recherche multifonctionnelle au monde pour les nanosciences et les nanotechnologies ...</target>
+         </trans-unit>
+         <trans-unit id="37">
+            <source>Live a year in 4 minutes de la Fundación Wikimedia nos enseña lo más relevante que se ha editado en la enciclopedia Wikipedia durante el año 2015. Podéis ver el resumen recopilatorio en forma de ...</source>
+            <target>Vivre une année en 4 minutes de la Wikimedia Foundation nous apprend le plus pertinent qui a été publié dans l'encyclopédie Wikipedia en 2015. Vous pouvez voir la compilation de résumé sous la forme de ...</target>
+         </trans-unit>
+         <trans-unit id="38">
+            <source>A diferencia de los robots rígidos, los robots blandos pueden reproducir el movimiento natural. Según un desarrollo publicado en Proceedings of the National Academy of Sciences (PNAS) por parte d...</source>
+            <target>Contrairement aux robots rigides, les robots mous peuvent reproduire des mouvements naturels. Selon un développement publié dans les Actes de l'Académie nationale des sciences (PNAS) par ...</target>
+         </trans-unit>
+         <trans-unit id="39">
+            <source>Robert McHenry, un antiguo editor de la Enciclopedia Británica, comparó Wikipedia con un baño público. El autor de The Cult of the Amateur (El culto del amateur), Andrew Keen, comparó a los blogg...</source>
+            <target>Robert McHenry, un ancien éditeur de l'Encyclopedia Britannica, a comparé Wikipedia à une toilette publique. L'auteur du Culte de l'Amateur, Andrew Keen, a comparé le blog ...</target>
+         </trans-unit>
+         <trans-unit id="40">
+            <source>La producción masiva de tejidos humanos como la piel, cartílagos e hígado, podría estar a la vuelta de la esquina gracias al desarrollo de una nueva impresora 3D por parte de investigadores e inge...</source>
+            <target>La production de masse de tissus humains tels que la peau, le cartilage et le foie pourrait être juste au coin de la rue grâce au développement d'une nouvelle imprimante 3D par des chercheurs et inge ...</target>
+         </trans-unit>
+         <trans-unit id="41">
+            <source>Quienes hayan leído uno de los máximos exponentes de la ciencia ficción que explota el sentido de la maravilla, como es Cita con Rama, de Arthur C. Clarke, no dejará de ver ciertos paralelismos co...</source>
+            <target>Ceux qui ont lu l'un des plus grands représentants de la science-fiction qui exploite le sens de l'émerveillement, comme Cita con Rama, par Arthur C. Clarke, ne manqueront pas de voir certains parallèles avec ...</target>
+         </trans-unit>
+         <trans-unit id="42">
+            <source>Ocultar artículo</source>
+            <target>Masquer l'article</target>
+         </trans-unit>
+         <trans-unit id="43">
+            <source>BLOG CIENTÍFICO</source>
+            <target>BLOG SCIENTIFIQUE</target>
+         </trans-unit>
+         <trans-unit id="44">
+            <source>Anterior Imagen</source>
+            <target>Image précédente</target>
+         </trans-unit>
+         <trans-unit id="45">
+            <source>Siguiente Imagen</source>
+            <target>Image suivante</target>
+         </trans-unit>
+         <trans-unit id="46">
+            <source>Ocultar Panel</source>
+            <target>Masquer le panneau</target>
+         </trans-unit>
+         <trans-unit id="47">
+            <source>INICIO</source>
+            <target>HOME</target>
+         </trans-unit>
+         <trans-unit id="48">
+            <source>TEMAS</source>
+            <target>SUJETS</target>
+         </trans-unit>
+         <trans-unit id="49">
+            <source>ARTICULOS</source>
+            <target>ARTICLES</target>
+         </trans-unit>
+         <trans-unit id="50">
+            <source>AUTORES</source>
+            <target>AUTEURS</target>
+         </trans-unit>
+         <trans-unit id="51">
+            <source>NOMBRE DEL TEMA</source>
+            <target>NOM DU SUJET</target>
+         </trans-unit>
+         <trans-unit id="52">
+            <source>MIRAR ARTICULOS DEL TEMA</source>
+            <target>VOIR ARTICLES DU SUJET</target>
+         </trans-unit>
+         <trans-unit id="53">
+            <source>ENTRAR</source>
+            <target>ENTER</target>
+         </trans-unit>
+         <trans-unit id="54">
+            <source>ANTROPOLOGÍA</source>
+            <target>ANTHROPOLOGIE</target>
+         </trans-unit>
+         <trans-unit id="55">
+            <source>ASTRONOMÍA</source>
+            <target>ASTRONOMIE</target>
+         </trans-unit>
+         <trans-unit id="56">
+            <source>BIOLOGÍA</source>
+            <target>BIOLOGIE</target>
+         </trans-unit>
+         <trans-unit id="57">
+            <source>FÍSICA</source>
+            <target>PHYSIQUE</target>
+         </trans-unit>
+         <trans-unit id="58">
+            <source>GENÉTICA</source>
+            <target>GENETIQUE</target>
+         </trans-unit>
+         <trans-unit id="59">
+            <source>GEOLOGÍA</source>
+            <target>GEOLOGIE</target>
+         </trans-unit>
+         <trans-unit id="60">
+            <source>MATEMÁTICAS</source>
+            <target>MATEMATIQUES</target>
+         </trans-unit>
+         <trans-unit id="61">
+            <source>MEDICINA</source>
+            <target>MÉDECINE</target>
+         </trans-unit>
+         <trans-unit id="62">
+            <source>PALEONTOLOGÍA</source>
+            <target>PALÉONTOLOGIE</target>
+         </trans-unit>
+         <trans-unit id="63">
+            <source>PSICOLOGÍA</source>
+            <target>PSYCHOLOGIE</target>
+         </trans-unit>
+         <trans-unit id="64">
+            <source>QUÍMICA</source>
+            <target>CHIMIE</target>
+         </trans-unit>
+         <trans-unit id="65">
+            <source>COMPUTACIÓN</source>
+            <target>INFORMATIQUE</target>
+         </trans-unit>
+         <trans-unit id="66">
+            <source>NANOTECNOLOGÍA</source>
+            <target>NANOTECHNOLOGIE</target>
+         </trans-unit>
+         <trans-unit id="67">
+            <source>PROGRAMACIÓN</source>
+            <target>PROGRAMMATION</target>
+         </trans-unit>
+         <trans-unit id="68">
+            <source>ROBÓTICA</source>
+            <target>ROBOTIQUE</target>
+         </trans-unit>
+         <trans-unit id="69">
+            <source>TECNOLOGÍA</source>
+            <target>TECHNOLOGIE</target>
+         </trans-unit>
+         <trans-unit id="70">
+            <source>TELOCOMUNICACIONES</source>
+            <target>TÉLÉCOMMUNICATIONS</target>
+         </trans-unit>
+         <trans-unit id="71">
+            <source>NOMBRE DEL ARTICULO</source>
+            <target>NOM DE L'ARTICLE</target>
+         </trans-unit>
+         <trans-unit id="72">
+            <source>MIRAR ARTICULO</source>
+            <target>VOIR ARTICLE</target>
+         </trans-unit>
+         <trans-unit id="73">
+            <source>NOMBRE DEL AUTOR</source>
+            <target>NOM DE L'AUTEUR</target>
+         </trans-unit>
+         <trans-unit id="74">
+            <source>MIRAR ARTICULOS DEL AUTOR</source>
+            <target>REGARDEZ LES ARTICLES DE L'AUTEUR</target>
+         </trans-unit>
+      </body>
+    </file>
+</xliff>

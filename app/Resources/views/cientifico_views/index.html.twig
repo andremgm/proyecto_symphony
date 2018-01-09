@@ -1,0 +1,284 @@
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+{% endblock %}
+
+{% block body %}
+<style type="text/css">
+.banner1 {
+  height: 400px;
+  width: 100%;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+  background-image: url("http://bpic.588ku.com/back_pic/02/65/14/5957873074946eb.jpg");
+  background-size: cover;
+  }
+
+  .banner2 {
+  height: 400px;
+  width: 100%;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/06/00/29562874559ab96.jpg");
+  background-size: cover;
+  }
+
+  .banner3 {
+  height: 400px;
+  width: 100%;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+  background-image: url("http://2.bp.blogspot.com/-FJbLGgG9BAo/UKO5QKf1GUI/AAAAAAAAFrw/5TTFlB-6l1M/s1600/Abstart-009-Facebook-HD-Timeline-Banner.jpg");
+  background-size: cover;
+  }
+
+  .banner4 {
+  height: 400px;
+  width: 100%;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+  background-image: url("https://ak1.picdn.net/shutterstock/videos/6451931/thumb/8.jpg");
+  background-size: cover;
+  }
+
+  .banner5 {
+  height: 400px;
+  width: 100%;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+  background-image: url("http://www.digitech-i.com/sites/default/files/empty-banner.jpg");
+  background-size: cover;
+  }
+
+  .banner6 {
+  height: 400px;
+  width: 100%;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+  background-image: url("http://www.exolook.com/covers/preview/HD-backgrounds-1.jpg");
+  background-size: cover;
+  }
+
+  .banner7 {
+  height: 400px;
+  width: 100%;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+  background-image: url("http://thewallpaper.co/wp-content/uploads/2016/10/Abstract-background-hd-desktop-wallpaper-hd-desktop-wallpapers-cool-images-amazing-hd-download-windows-colourfull-display-1920x1080.jpg");
+  background-size: cover;
+  }
+
+  .banner8 {
+  height: 400px;
+  width: 100%;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/04/53/84562490d8e0d91.jpg");
+  background-size: cover;
+  }
+
+  .banner9 {
+  height: 400px;
+  width: 100%;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+  background-image: url("http://i01.appmifile.com/webfile/globalimg/hd/2017011301/c6-video-bg.jpg");
+  background-size: cover;
+  }
+
+  .banner10 {
+  height: 400px;
+  width: 100%;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+  background-image: url("https://cdn.pixabay.com/photo/2015/11/19/08/52/banner-1050629__340.jpg");
+  background-size: cover;
+  }
+</style>
+
+<div class="container">
+  <table class="table">
+    <tbody>
+  
+  <!--- PANEL SUPERIOR --->
+  <div id="ocultar">
+    <div id="panelSuperior" class="jumbotron banner1">
+      <h1>{% trans %}Bienvenido a nuestro blog científico.{%endtrans%}</h1>
+      <p>{% trans %}Echa un vistazo a nuestros últimos artículos más destacados de la semana.{%endtrans%}</p>
+      <p>
+        <button id="anteriorImagen" type="button" class="btn btn-xs btn-default">{% trans %}Anterior Imagen{%endtrans%}</button>
+        <button id="siguienteImagen" type="button" class="btn btn-xs btn-default">{% trans %}Siguiente Imagen{%endtrans%}</button>
+        <button id="ocultarPanel" type="button" class="btn btn-xs btn-danger">{% trans %}Ocultar Panel{%endtrans%}</button>
+      </p>
+    </div>
+  </div>
+  <!--- FIN DEL PANEL SUPERIOR --->
+
+  <!--- TABLA CON ARTÍCULOS --->
+    <div class="row">
+
+     {% for articulo in articulo %}               
+            <!--- FORMATO DE CADA ARTÍCULO --->
+            <div id="clickArticulo{{articulo.id}}" class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img id="img" src="{{articulo.imagen}}" style="width:350px;height:200px;">
+                <div class="caption">
+                  <h4>{{articulo.articulo|trans}}</h4>
+                  <p>{{articulo.body(200)|trans}}</p>
+                  <p><a href="/es/articulos/{{articulo.id}}" class="btn btn-primary" role="button">{% trans %}Seguir leyendo{%endtrans%}</a></p>
+                  <button id="botonOcultar{{articulo.id}}" type="button" class="btn btn-default">{% trans %}Ocultar artículo{%endtrans%}</button>
+                </div>
+               </div>
+            </div>
+            <!--- FIN DEL FORMATO DE CADA ARTÍCULO --->
+         {% endfor %}
+
+    </div>
+  <!--- FIN DE LA TABLA CON ARTÍCULOS --->
+
+    </tbody>
+  </table>
+</div>
+{% endblock %}
+
+{% block javascripts %}
+<script type="text/javascript">
+//Variables globales:
+var id = 1;
+
+$(document).ready(function(){
+     //Función para el index principal que ocultará el panel superior al hacer click sobre él:
+     $( "#ocultarPanel" ).click(function() {
+      $( "#ocultar" ).hide( "slow", function() {
+       alert( "Panel superior ocultado para mejorar la visualización :D" );
+      });
+     });
+
+     //Función para cambiar de imágen al panel superior a la anterior:
+     $( "#anteriorImagen" ).click(function() {
+       if (id === undefined) {
+          document.getElementById('panelSuperior').className = "jumbotron banner1";
+       }else{
+          if(id === 1){
+            document.getElementById('panelSuperior').className = "jumbotron banner1";
+          }else{
+            document.getElementById('panelSuperior').className = "jumbotron banner"+id;
+            id--;
+          }
+       }
+     });
+
+     //Función para cambiar de imágen al panel superior a la siguiente:
+     $( "#siguienteImagen" ).click(function() {
+       if (id === undefined) {
+          document.getElementById('panelSuperior').className = "jumbotron banner10";
+       }else{
+          if(id === 10){
+            document.getElementById('panelSuperior').className = "jumbotron banner10";
+          }else{
+            document.getElementById('panelSuperior').className = "jumbotron banner"+id;
+            id++;
+          }
+       }
+     });
+
+      //Función para ocultar los artículos que elijas:
+       $('#botonOcultar{{articulo[0].id}}').click(function() {    
+       $('#clickArticulo{{articulo[0].id}}').hide( "slow", function() {
+       });
+      });
+       $('#botonOcultar{{articulo[1].id}}').click(function() {    
+       $('#clickArticulo{{articulo[1].id}}').hide( "slow", function() {
+       });
+      });
+      $('#botonOcultar{{articulo[2].id}}').click(function() {    
+       $('#clickArticulo{{articulo[2].id}}').hide( "slow", function() {
+       });
+      });
+      $('#botonOcultar{{articulo[3].id}}').click(function() {    
+       $('#clickArticulo{{articulo[3].id}}').hide( "slow", function() {
+       });
+      });
+      $('#botonOcultar{{articulo[4].id}}').click(function() {    
+       $('#clickArticulo{{articulo[4].id}}').hide( "slow", function() {
+       });
+      });
+      $('#botonOcultar{{articulo[5].id}}').click(function() {    
+       $('#clickArticulo{{articulo[5].id}}').hide( "slow", function() {
+       });
+      });
+      $('#botonOcultar{{articulo[6].id}}').click(function() {    
+       $('#clickArticulo{{articulo[6].id}}').hide( "slow", function() {
+       });
+      });
+      $('#botonOcultar{{articulo[7].id}}').click(function() {    
+       $('#clickArticulo{{articulo[7].id}}').hide( "slow", function() {
+       });
+      });
+      $('#botonOcultar{{articulo[8].id}}').click(function() {    
+       $('#clickArticulo{{articulo[8].id}}').hide( "slow", function() {
+       });
+      });
+      $('#botonOcultar{{articulo[9].id}}').click(function() {    
+       $('#clickArticulo{{articulo[9].id}}').hide( "slow", function() {
+       });
+      });
+      $('#botonOcultar{{articulo[10].id}}').click(function() {    
+       $('#clickArticulo{{articulo[10].id}}').hide( "slow", function() {
+       });
+      });
+      $('#botonOcultar{{articulo[11].id}}').click(function() {    
+       $('#clickArticulo{{articulo[11].id}}').hide( "slow", function() {
+       });
+      });
+      $('#botonOcultar{{articulo[12].id}}').click(function() {    
+       $('#clickArticulo{{articulo[12].id}}').hide( "slow", function() {
+       });
+      });
+      $('#botonOcultar{{articulo[13].id}}').click(function() {    
+       $('#clickArticulo{{articulo[13].id}}').hide( "slow", function() {
+       });
+      });
+      $('#botonOcultar{{articulo[14].id}}').click(function() {    
+       $('#clickArticulo{{articulo[14].id}}').hide( "slow", function() {
+       });
+      });
+      $('#botonOcultar{{articulo[15].id}}').click(function() {    
+       $('#clickArticulo{{articulo[15].id}}').hide( "slow", function() {
+       });
+      });
+      $('#botonOcultar{{articulo[16].id}}').click(function() {    
+       $('#clickArticulo{{articulo[16].id}}').hide( "slow", function() {
+       });
+      });
+      $('#botonOcultar{{articulo[17].id}}').click(function() {    
+       $('#clickArticulo{{articulo[17].id}}').hide( "slow", function() {
+       });
+      });
+      $('#botonOcultar{{articulo[18].id}}').click(function() {    
+       $('#clickArticulo{{articulo[18].id}}').hide( "slow", function() {
+       });
+      });
+});
+   </script>
+{% endblock %}

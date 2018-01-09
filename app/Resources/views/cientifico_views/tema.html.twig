@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+
+<div class="container">
+  <table class="table">
+    <tbody>
+  <!--- TABLA CON ARTÍCULOS --->
+    <div class="row">
+
+     {% for articulos in articulos %}               
+            <!--- FORMATO DE CADA ARTÍCULO --->
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img src="{{articulos.imagen}}" style="width:350px;height:200px;">
+                <div class="caption">
+                  <h4>{{articulos.articulo}}</h4>
+                  <p>{{articulos.body(200)}}</p>
+                  <p><a href="/es/articulos/{{articulos.temaId}}" class="btn btn-primary" role="button">Seguir leyendo</a></p>
+                </div>
+               </div>
+            </div>
+            <!--- FIN DEL FORMATO DE CADA ARTÍCULO --->
+         {% endfor %}
+
+    </div>
+  <!--- FIN DE LA TABLA CON ARTÍCULOS --->
+
+    </tbody>
+  </table>
+</div>
+
+{% endblock %}

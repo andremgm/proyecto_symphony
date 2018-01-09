@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://mediad.publicbroadcasting.net/p/wunc/files/201704/March_for_Science.png">
+
+    <title>{% block title %}{% trans %}BLOG CIENTÍFICO{%endtrans%}{%endblock%}</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+
+  <style type="text/css">
+  .transition {
+    -webkit-transform: scale(1.5); 
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  .transition {
+    -webkit-transform: scale(1.5); 
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    }
+
+    .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #333;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    }
+
+    .slider:hover {
+    opacity: 1;
+    }
+
+    .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+    }
+
+    .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+    } 
+
+  body{
+    background-color:black;
+    animation: image 60s infinite alternate;
+    }
+
+    @keyframes image{
+    1%{
+     background-color: hsl(0, 100%, 40%);
+    }
+    2%/{
+     background-color: hsl(0, 100%, 39%);
+    }
+    3%{
+     background-color: hsl(0, 100%, 38%);
+    }
+    4%{
+     background-color: hsl(0, 100%, 37%);
+    }
+    5%{
+     background-color: hsl(0, 100%, 36%);
+    }
+    6%{
+     background-color: hsl(0, 100%, 35%);
+    }
+    7%{
+     background-color: hsl(0, 100%, 34%);
+    }
+    8%{
+     background-color: hsl(0, 100%, 33%);
+    }
+    9%{
+     background-color: hsl(0, 100%, 32%);
+    }
+    10%{
+     background-color: hsl(0, 100%, 31%);
+    }
+    11%{
+     background-color: hsl(0, 100%, 30%);
+    }
+    12%{
+     background-color: hsl(0, 100%, 29%);
+    }
+    13%/{
+     background-color: hsl(0, 100%, 28%);
+    }
+    14%{
+     background-color: hsl(0, 100%, 27%);
+    }
+    15%{
+     background-color: hsl(0, 100%, 26%);
+    }
+    16%{
+     background-color: hsl(0, 100%, 25%);
+    }
+    17%{
+     background-color: hsl(0, 100%, 24%);
+    }
+    18%{
+     background-color: hsl(0, 100%, 23%);
+    }
+    19%{
+     background-color: hsl(0, 100%, 22%);
+    }
+    20%{
+     background-color: hsl(0, 100%, 21%);
+    }
+    21%{
+     background-color: hsl(25, 100%, 21%);
+    }
+    22%{
+     background-color: hsl(25, 100%, 22%);
+    }
+    23%/{
+     background-color: hsl(25, 100%, 23%);
+    }
+    24%{
+     background-color: hsl(25, 100%, 24%);
+    }
+    25%{
+     background-color: hsl(25, 100%, 25%);
+    }
+    26%{
+     background-color: hsl(25, 100%, 26%);
+    }
+    27%{
+     background-color: hsl(25, 100%, 27%);
+    }
+    28%{
+     background-color: hsl(25, 100%, 28%);
+    }
+    29%{
+     background-color: hsl(25, 100%, 29%);
+    }
+    30%{
+     background-color: hsl(25, 100%, 30%);
+    }
+    31%{
+     background-color: hsl(25, 100%, 31%);
+    }
+    32%{
+     background-color: hsl(25, 100%, 32%);
+    }
+    33%{
+     background-color: hsl(25, 100%, 33%);
+    }
+    34%/{
+     background-color: hsl(25, 100%, 34%);
+    }
+    35%{
+     background-color: hsl(25, 100%, 35%);
+    }
+    36%{
+     background-color: hsl(25, 100%, 36%);
+    }
+    37%{
+     background-color: hsl(25, 100%, 37%);
+    }
+    38%{
+     background-color: hsl(25, 100%, 38%);
+    }
+    39%{
+     background-color: hsl(25, 100%, 39%);
+    }
+    40%{
+     background-color: hsl(25, 100%, 40%);
+    }
+    41%{
+     background-color: hsl(50, 100%, 40%);
+    }
+    42%{
+     background-color: hsl(50, 100%, 39%);
+    }
+    43%{
+     background-color: hsl(50, 100%, 38%);
+    }
+    44%/{
+     background-color: hsl(50, 100%, 37%);
+    }
+    45%{
+     background-color: hsl(50, 100%, 36%);
+    }
+    46%{
+    background-color: hsl(50, 100%, 35%);
+    }
+    47%{
+     background-color: hsl(50, 100%, 34%);
+    }
+    48%{
+     background-color: hsl(50, 100%, 33%);
+    }
+    49%{
+     background-color: hsl(50, 100%, 32%);
+    }
+    50%{
+     background-color: hsl(50, 100%, 31%);
+    }
+    51%{
+     background-color: hsl(50, 100%, 30%);
+    }
+    52%{
+     background-color: hsl(50, 100%, 29%);
+    }
+    53%{
+     background-color: hsl(50, 100%, 28%);
+    }
+    54%{
+     background-color: hsl(50, 100%, 27%);
+    }
+    55%/{
+     background-color: hsl(50, 100%, 26%);
+    }
+    56%{
+     background-color: hsl(50, 100%, 25%);
+    }
+    57%{
+     background-color: hsl(50, 100%, 24%);
+    }
+    58%{
+     background-color: hsl(50, 100%, 23%);
+    }
+    59%{
+     background-color: hsl(50, 100%, 22%);
+    }
+    60%{
+     background-color: hsl(50, 100%, 21%);
+    }
+    61%{
+     background-color: hsl(50, 100%, 21%);
+    }
+    62%{
+     background-color: hsl(75, 100%, 22%);
+    }
+    63%{
+     background-color: hsl(75, 100%, 23%);
+    }
+    64%{
+     background-color: hsl(75, 100%, 24%);
+    }
+    65%/{
+     background-color: hsl(75, 100%, 25%);
+    }
+    66%{
+     background-color: hsl(75, 100%, 26%);
+    }
+    67%{
+     background-color: hsl(75, 100%, 27%);
+    }
+    68%{
+     background-color: hsl(75, 100%, 28%);
+    }
+    69%{
+     background-color: hsl(75, 100%, 29%);
+    }
+    70%{
+     background-color: hsl(75, 100%, 30%);
+    }
+    71%{
+     background-color: hsl(75, 100%, 31%);
+    }
+    72%{
+     background-color: hsl(75, 100%, 32%);
+    }
+    73%{
+     background-color: hsl(75, 100%, 33%);
+    }
+    74%{
+     background-color: hsl(75, 100%, 34%);
+    }
+    75%{
+     background-color: hsl(75, 100%, 35%);
+    }
+    76%/{
+     background-color: hsl(75, 100%, 36%);
+    }
+    77%{
+     background-color: hsl(75, 100%, 37%);
+    }
+    78%{
+     background-color: hsl(75, 100%, 38%);
+    }
+    79%{
+     background-color: hsl(75, 100%, 39%);
+    }
+    80%{
+     background-color: hsl(75, 100%, 40%);
+    }
+    81%{
+     background-color: hsl(100, 100%, 39%);
+    }
+    82%{
+     background-color: hsl(100, 100%, 38%);
+    }
+    83%{
+     background-color: hsl(100, 100%, 37%);
+    }
+    84%{
+     background-color: hsl(100, 100%, 36%);
+    }
+    85%{
+     background-color: hsl(100, 100%, 35%);
+    }
+    86%/{
+     background-color: hsl(100, 100%, 34%);
+    }
+    87%{
+     background-color: hsl(100, 100%, 33%);
+    }
+    88%{
+    background-color: hsl(100, 100%, 32%);
+    }
+    89%{
+     background-color: hsl(100, 100%, 31%);
+    }
+    90%{
+     background-color: hsl(100, 100%, 30%);
+    }
+    91%{
+     background-color: hsl(100, 100%, 29%);
+    }
+    92%{
+     background-color: hsl(100, 100%, 28%);
+    }
+    93%{
+     background-color: hsl(100, 100%, 27%);
+    }
+    94%{
+     background-color: hsl(100, 100%, 26%);
+    }
+    95%{
+     background-color: hsl(100, 100%, 25%);
+    }
+    96%{
+     background-color: hsl(100, 100%, 24%);
+    }
+    97%/{
+     background-color: hsl(100, 100%, 23%);
+    }
+    98%{
+     background-color: hsl(100, 100%, 22%);
+    }
+    99%{
+    background-color: hsl(100, 100%, 21%);
+    }
+    100%{
+     background-color: hsl(100, 100%, 20%);
+    }
+    </style>
+
+    <!-- CSS estilos personalizados -->
+    {% block stylesheets %}
+    {% endblock %}
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="navbar-header">
+          <a class="navbar-brand"><img id="logo" alt="Brand" src="http://mediad.publicbroadcasting.net/p/wunc/files/201704/March_for_Science.png" style="width:48px;height:48px;"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a id="inicio" href="/es">{% trans %}INICIO{%endtrans%}</a></li>
+            <li><a id="temas" href="/es/temas">{% trans %}TEMAS{%endtrans%}</a></li>
+            <li><a id="articulos" href="/es/articulos">{% trans %}ARTICULOS{%endtrans%}</a></li>
+            <li><a id="autores" href="/es/autores">{% trans %}AUTORES{%endtrans%}</a></li>
+            <li><a id="ES" href="/es" class="btn btn-primary" role="button">ES</a></li>
+            <li><a id="EN" href="/en" class="btn btn-primary" role="button">EN</a></li>
+            <li><a id="FR" href="/fr" class="btn btn-primary" role="button">FR</a></li>
+            <li><a><input type="range" min="1" max="1450" value="700" class="slider" id="myRange"></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+    </nav>
+    {% block body%}
+    {%endblock%}
+    
+    <!-- jQuery con js predeterminado para todas las páginas para mostrar mensaje al cambiar de idioma -->
+    <script type="text/javascript">
+    $(document).ready(function(){
+      //Mensaje por haber cambiado al idioma ES:
+      $("#ES").click(function(){
+            alert('Has cambiado el idioma al Español.');
+      });
+      //Mensaje por haber cambiado al idioma EN:
+      $("#EN").click(function(){
+            alert('You have changed the language to English.');
+      });
+      //Mensaje por haber cambiado al idioma FR:
+      $("#FR").click(function(){
+            alert('Vous avez changé la langue en français.');
+      });
+    });
+
+    $(document).ready(function(){
+    $("#logo").hover(function() {
+        $(this).addClass('transition');
+    }, function() {
+        $(this).removeClass('transition');
+    });
+
+    var slider = document.getElementById("myRange");
+    //Recogemos el valor del slider en todo momento y vamos cambiando así el color del fondo de la pantalla:
+    slider.oninput = function() {
+        imgObj = document.getElementById('logo');
+        imgObj.style.left = this.value + 'px';
+    }
+
+    var animate, left=0, imgObj=null;
+    function init(){
+     imgObj = document.getElementById('logo');
+     imgObj.style.position= 'absolute';
+     imgObj.style.top = '6px';
+     imgObj.style.left = '0px';
+     imgObj.style.right = '700px';
+     imgObj.style.visibility='hidden';
+     moveRight();
+    }
+
+    function moveRight(){
+     left = parseInt(imgObj.style.left, 10);
+     right = parseInt(imgObj.style.right, 10);
+
+    if (left <= right) {
+        imgObj.style.left = (left + 10) + 'px';
+        imgObj.style.visibility='visible';
+        animate = setTimeout(function(){moveRight();},20); // call moveRight in 20msec
+    } else {
+        stop();
+    }
+    }
+
+    function stop(){
+     clearTimeout(animate);
+    }
+
+    window.onload = function() {init();};
+});
+   </script>
+   {% block javascripts %}
+   {%endblock%}
+
+
+  </body>
+</html>

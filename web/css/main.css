@@ -1,0 +1,462 @@
+ <style type="text/css">
+.banner1 {
+  height: 400px;
+  width: 100%;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+  background-image: url("http://bpic.588ku.com/back_pic/02/65/14/5957873074946eb.jpg");
+  background-size: cover;
+  }
+
+  .banner2 {
+  height: 400px;
+  width: 100%;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/06/00/29562874559ab96.jpg");
+  background-size: cover;
+  }
+
+  .banner3 {
+  height: 400px;
+  width: 100%;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+  background-image: url("http://2.bp.blogspot.com/-FJbLGgG9BAo/UKO5QKf1GUI/AAAAAAAAFrw/5TTFlB-6l1M/s1600/Abstart-009-Facebook-HD-Timeline-Banner.jpg");
+  background-size: cover;
+  }
+
+  .banner4 {
+  height: 400px;
+  width: 100%;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+  background-image: url("https://ak1.picdn.net/shutterstock/videos/6451931/thumb/8.jpg");
+  background-size: cover;
+  }
+
+  .banner5 {
+  height: 400px;
+  width: 100%;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+  background-image: url("http://www.digitech-i.com/sites/default/files/empty-banner.jpg");
+  background-size: cover;
+  }
+
+  .banner6 {
+  height: 400px;
+  width: 100%;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+  background-image: url("http://www.exolook.com/covers/preview/HD-backgrounds-1.jpg");
+  background-size: cover;
+  }
+
+  .banner7 {
+  height: 400px;
+  width: 100%;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+  background-image: url("http://thewallpaper.co/wp-content/uploads/2016/10/Abstract-background-hd-desktop-wallpaper-hd-desktop-wallpapers-cool-images-amazing-hd-download-windows-colourfull-display-1920x1080.jpg");
+  background-size: cover;
+  }
+
+  .banner8 {
+  height: 400px;
+  width: 100%;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/04/53/84562490d8e0d91.jpg");
+  background-size: cover;
+  }
+
+  .banner9 {
+  height: 400px;
+  width: 100%;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+  background-image: url("http://i01.appmifile.com/webfile/globalimg/hd/2017011301/c6-video-bg.jpg");
+  background-size: cover;
+  }
+
+  .banner10 {
+  height: 400px;
+  width: 100%;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+  background-image: url("https://cdn.pixabay.com/photo/2015/11/19/08/52/banner-1050629__340.jpg");
+  background-size: cover;
+  }
+
+  .transition {
+    -webkit-transform: scale(1.5); 
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  .transition {
+    -webkit-transform: scale(1.5); 
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    }
+
+    .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #333;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    }
+
+    .slider:hover {
+    opacity: 1;
+    }
+
+    .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+    }
+
+    .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+    } 
+
+  body{
+    background-color:black;
+    animation: image 20s infinite alternate;
+    }
+
+    @keyframes image{
+    1%{
+     background-color:#00D29B;
+    }
+    2%/{
+     background-color:#00C692;
+    }
+    3%{
+     background-color:#00B888;
+    }
+    4%{
+    background-color:#01A47A;
+    }
+    5%{
+     background-color:#00926D;
+    }
+    6%{
+     background-color:#008966;
+    }
+    7%{
+     background-color:#007658;
+    }
+    8%{
+     background-color:#006249;
+    }
+    9%{
+     background-color:#004836;
+    }
+    10%{
+     background-color:#003125;
+    }
+    11%{
+     background-color:#000806;
+    }
+    12%{
+     background-color:#D28200;
+    }
+    13%/{
+     background-color:#CB7E00;
+    }
+    14%{
+     background-color:#BF7600;
+    }
+    15%{
+    background-color:#B36F00;
+    }
+    16%{
+     background-color:#A56701;
+    }
+    17%{
+     background-color:#925B00;
+    }
+    18%{
+     background-color:#845200;
+    }
+    19%{
+     background-color:#6F4500;
+    }
+    20%{
+     background-color:#5B3800;
+    }
+    21%{
+     background-color:#311E00;
+    }
+    22%{
+     background-color:#00D29B;
+    }
+    23%/{
+     background-color:#00C692;
+    }
+    24%{
+     background-color:#00B888;
+    }
+    25%{
+    background-color:#01A47A;
+    }
+    26%{
+     background-color:#00926D;
+    }
+    27%{
+     background-color:#008966;
+    }
+    28%{
+     background-color:#007658;
+    }
+    29%{
+     background-color:#006249;
+    }
+    30%{
+     background-color:#004836;
+    }
+    31%{
+     background-color:#003125;
+    }
+    32%{
+     background-color:#000806;
+    }
+    33%{
+     background-color:#D28200;
+    }
+    34%/{
+     background-color:#CB7E00;
+    }
+    35%{
+     background-color:#BF7600;
+    }
+    36%{
+    background-color:#B36F00;
+    }
+    37%{
+     background-color:#A56701;
+    }
+    38%{
+     background-color:#925B00;
+    }
+    39%{
+     background-color:#845200;
+    }
+    40%{
+     background-color:#6F4500;
+    }
+    41%{
+     background-color:#5B3800;
+    }
+    42%{
+     background-color:#311E00;
+    }
+    43%{
+     background-color:#00D29B;
+    }
+    44%/{
+     background-color:#00C692;
+    }
+    45%{
+     background-color:#00B888;
+    }
+    46%{
+    background-color:#01A47A;
+    }
+    47%{
+     background-color:#00926D;
+    }
+    48%{
+     background-color:#008966;
+    }
+    49%{
+     background-color:#007658;
+    }
+    50%{
+     background-color:#006249;
+    }
+    51%{
+     background-color:#004836;
+    }
+    52%{
+     background-color:#003125;
+    }
+    53%{
+     background-color:#000806;
+    }
+    54%{
+     background-color:#D28200;
+    }
+    55%/{
+     background-color:#CB7E00;
+    }
+    56%{
+     background-color:#BF7600;
+    }
+    57%{
+    background-color:#B36F00;
+    }
+    58%{
+     background-color:#A56701;
+    }
+    59%{
+     background-color:#925B00;
+    }
+    60%{
+     background-color:#845200;
+    }
+    61%{
+     background-color:#6F4500;
+    }
+    62%{
+     background-color:#5B3800;
+    }
+    63%{
+     background-color:#311E00;
+    }
+    64%{
+     background-color:#00D29B;
+    }
+    65%/{
+     background-color:#00C692;
+    }
+    66%{
+     background-color:#00B888;
+    }
+    67%{
+    background-color:#01A47A;
+    }
+    68%{
+     background-color:#00926D;
+    }
+    69%{
+     background-color:#008966;
+    }
+    70%{
+     background-color:#007658;
+    }
+    71%{
+     background-color:#006249;
+    }
+    72%{
+     background-color:#004836;
+    }
+    73%{
+     background-color:#003125;
+    }
+    74%{
+     background-color:#000806;
+    }
+    75%{
+     background-color:#D28200;
+    }
+    76%/{
+     background-color:#CB7E00;
+    }
+    77%{
+     background-color:#BF7600;
+    }
+    78%{
+    background-color:#B36F00;
+    }
+    79%{
+     background-color:#A56701;
+    }
+    80%{
+     background-color:#925B00;
+    }
+    81%{
+     background-color:#845200;
+    }
+    82%{
+     background-color:#6F4500;
+    }
+    83%{
+     background-color:#5B3800;
+    }
+    84%{
+     background-color:#311E00;
+    }
+    85%{
+     background-color:#00D29B;
+    }
+    86%/{
+     background-color:#00C692;
+    }
+    87%{
+     background-color:#00B888;
+    }
+    88%{
+    background-color:#01A47A;
+    }
+    89%{
+     background-color:#00926D;
+    }
+    90%{
+     background-color:#008966;
+    }
+    91%{
+     background-color:#007658;
+    }
+    92%{
+     background-color:#006249;
+    }
+    93%{
+     background-color:#004836;
+    }
+    94%{
+     background-color:#003125;
+    }
+    95%{
+     background-color:#000806;
+    }
+    96%{
+     background-color:#D28200;
+    }
+    97%/{
+     background-color:#CB7E00;
+    }
+    98%{
+     background-color:#BF7600;
+    }
+    99%{
+    background-color:#B36F00;
+    }
+    100%{
+     background-color:#A56701;
+    }
+</style>

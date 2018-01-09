@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+
+<div class="container">      
+  <table class="table table-striped">
+  <!--- NOMBRES DE LAS COLUMNAS DE LA TABLA -->
+  <thead>
+   <tr>
+   <th>#</th>
+   <th>{% trans %}NOMBRE DEL AUTOR{%endtrans%}</th>
+   <th>{% trans %}MIRAR ARTICULOS DEL AUTOR{%endtrans%}</th>
+   </tr>
+  </thead>
+
+  <!--- VALORES DE LA TABLA -->
+    <tbody>
+      <tr>
+      {% for autor in autor %}
+        <td>{{autor.id}}</td>
+        <td>{{autor.nombre}}</td>
+        <td><a href="/es/autores/{{autor.id}}" class="btn btn-success">{% trans %}ENTRAR{%endtrans%}</a></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+{% endblock %}

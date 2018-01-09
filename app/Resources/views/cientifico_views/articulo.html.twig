@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+
+<div class="container">      
+   <!--- PANEL SUPERIOR --->
+    <div class="jumbotron" style="background-color: #101010">
+            <h2><span class="label label-primary">{{articulo.articulo}}</span></h2>
+            <!--- FORMATO DE CADA ARTÍCULO --->
+            <div class="thumbnail" style="background-color: #337ab7">
+                <img src="{{articulo.imagen}}" style="width:1000px;height:500px;">
+                <div class="caption">
+                  <div class="alert alert-info" role="alert">
+                  <p>{{articulo.body(10000)}}</p>
+                  </div>
+                </div>
+            </div>
+            <!--- FIN DEL FORMATO DE CADA ARTÍCULO --->
+
+            <!--- FORMATO PARA COMENTARIOS --->
+            {% for comment in comments %}
+            <div class="panel panel-primary">
+             <div class="panel-heading">
+                <p><span class="highlight">{{ comment.user }}</span>
+                comentó el <time datetime="{{ comment.created|date('c') }}">{{ comment.created|date('l, F j, Y') }}</time>
+                <span class="label label-success">{{comment.puntuacion}}</span>
+               </p>
+             </div>
+             <div class="panel-body">
+               <p>{{ comment.comment }}</p>
+             </div>
+            </div>
+            {% endfor %}
+            <!--- FIN DEL FORMATO PARA CADA COMENTARIO --->
+    </div>
+  <!--- FIN DEL PANEL SUPERIOR --->        
+</div>
+
+{% endblock %}

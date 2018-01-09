@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+
+<div class="container">      
+  <table class="table table-striped">
+  <!--- NOMBRES DE LAS COLUMNAS DE LA TABLA -->
+  <thead>
+   <tr>
+   <th>#</th>
+   <th>{% trans %}NOMBRE DEL ARTICULO{%endtrans%}</th>
+   <th>{% trans %}MIRAR ARTICULO{%endtrans%}</th>
+   </tr>
+  </thead>
+
+  <!--- VALORES DE LA TABLA -->
+    <tbody>
+      <tr>
+      {% for articulo in articulo %}
+        <td>{{articulo.id}}</td>
+        <td>{{articulo.articulo|trans}}</td>
+        <td><a href="/es/articulos/{{articulo.id}}" class="btn btn-success">{% trans %}ENTRAR{%endtrans%}</a></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+{% endblock %}

@@ -1,0 +1,303 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+   <file source-language="es" datatype="plaintext" original="file.ext">
+      <body>
+         <trans-unit id="1">
+            <source>Bienvenido a nuestro blog científico.</source>
+            <target>Welcome to our scientific blog.</target>
+         </trans-unit>
+         <trans-unit id="2">
+            <source>Echa un vistazo a nuestros últimos artículos más destacados de la semana.</source>
+            <target>Check out our latest highlights of the week.</target>
+         </trans-unit>
+         <trans-unit id="3">
+            <source>Seguir leyendo</source>
+            <target>Keep reading</target>
+         </trans-unit>
+         <trans-unit id="4">
+            <source>El sueldo más antiguo del mundo fue cobrado en cerveza</source>
+            <target>The oldest salary in the world was charged in beer</target>
+         </trans-unit>
+         <trans-unit id="5">
+            <source>¿Los perros son más inteligentes que los gatos?</source>
+            <target>Are dogs more intelligent than cats?</target>
+         </trans-unit>
+         <trans-unit id="6">
+            <source>Éste es el pez que habita a mayor profundidad de todo el mundo</source>
+            <target>This is the fish that lives deep in the world</target>
+         </trans-unit>
+         <trans-unit id="7">
+            <source>Contempla una prueba nuclear de 1953 desintegrando una casa en alta resolución</source>
+            <target>It contemplates a nuclear test of 1953 disintegrating a house in high resolution</target>
+         </trans-unit>
+         <trans-unit id="8">
+            <source>Se mide con precisión el tiempo que tarda el electrón en abandonar el átomo</source>
+            <target>The time it takes the electron to leave the atom is precisely measured</target>
+         </trans-unit>
+         <trans-unit id="9">
+            <source>Si no te gusta el deporte quizá es que sufres alergia hereditaria</source>
+            <target>If you do not like sports maybe you suffer from hereditary allergy</target>
+         </trans-unit>
+         <trans-unit id="10">
+            <source>¿Cuántas personas han muerto por erupciones de los volcanes?</source>
+            <target>How many people have died from eruptions of volcanoes?</target>
+         </trans-unit>
+         <trans-unit id="11">
+            <source>El cero tiene 500 años más de lo que se pensaba, según este manuscrito</source>
+            <target>The zero is 500 years older than previously thought, according to this manuscript</target>
+         </trans-unit>
+         <trans-unit id="12">
+            <source>La ciencia exonera a las grasas: así es como te ayudan a bajar de peso</source>
+            <target>Science exonerates fats: this is how they help you lose weight</target>
+         </trans-unit>
+         <trans-unit id="13">
+            <source>Las escamas de los preces fueron los precursores de nuestros dientes</source>
+            <target>The scales of the prayers were the precursors of our teeth</target>
+         </trans-unit>
+         <trans-unit id="14">
+            <source>¿Qué es el acoso sexual? La respuesta depende del país, el sexo y la edad</source>
+            <target>What is sexual harassment? The answer depends on the country, sex and age</target>
+         </trans-unit>
+         <trans-unit id="15">
+            <source>Este material crece hasta 100 veces su tamaño cuando empieza a arder</source>
+            <target>This material grows up to 100 times its size when it starts to burn</target>
+         </trans-unit>
+         <trans-unit id="16">
+            <source>¿Estamos a las puertas de un nuevo tipo de ordenador cuántico?</source>
+            <target>Are we at the gates of a new type of quantum computer?</target>
+         </trans-unit>
+         <trans-unit id="17">
+            <source>China ha construido la mayor instalación del mundo para nanociencia</source>
+            <target>China has built the world's largest facility for nanoscience</target>
+         </trans-unit>
+         <trans-unit id="18">
+            <source>Todo lo que hemos editado en Wikipedia durante el año 2015</source>
+            <target>Everything we have edited in Wikipedia during the year 2015</target>
+         </trans-unit>
+         <trans-unit id="19">
+            <source>Ahora los robots blandos ya pueden tener superfuerza gracias a estos músculos</source>
+            <target>Now the soft robots can already have super strength thanks to these muscles</target>
+         </trans-unit>
+         <trans-unit id="20">
+            <source>¿Por qué es malo copiar de Wikipedia para hacer los deberes de clase?</source>
+            <target>Why is it wrong to copy from Wikipedia to do the homework?</target>
+         </trans-unit>
+         <trans-unit id="21">
+            <source>La producción masiva de tejidos humanos puede llegar con esta nueva impresora 3D</source>
+            <target>The mass production of human tissues can arrive with this new 3D printer</target>
+         </trans-unit>
+         <trans-unit id="22">
+            <source>¿Y si enviamos una sonda a Oumuamua?</source>
+            <target>What if we send a probe to Oumuamua?</target>
+         </trans-unit>
+         <trans-unit id="23">
+            <source>Los soldados romanos que cuidaban la ruta Vía Salaria recibían parte de su pago en sal. Esta parte era llamada "salarium argentum" (agregado de sal). De allí viene la palabra "salario". Sin emba...</source>
+            <target>The Roman soldiers who took care of the Via Salaria route received part of their payment in salt. This part was called "salarium argentum" (salt aggregate). That's where the word "salary" comes from. Without embar ...</target>
+         </trans-unit>
+         <trans-unit id="24">
+            <source>Acostumbramos a pensar que los perros son bobos e inocentes y los gatos listos y maquiavélicos. Sin embargo, a juzgar por un nuevo estudio y teniendo en cuenta su número de neuronas, los perros pare...</source>
+            <target>We are used to thinking that dogs are stupid and innocent and cats are smart and Machiavellian. However, judging by a new study and taking into account their number of neurons, the dogs stop ...</target>
+         </trans-unit>
+         <trans-unit id="25">
+            <source>Pseudoliparis swirei es una especie de pez caracol que vive en la Fosa de las Marianas, el lugar más profundo de la Tierra. No en vano, este pez es capaz de habitar profunidades de 8.000 metros. H...</source>
+            <target>Pseudoliparis swirei is a species of snailfish that lives in the Mariana Trench, the deepest place on Earth. Not in vain, this fish is capable of inhabiting depths of 8,000 meters. H ...</target>
+         </trans-unit>
+         <trans-unit id="26">
+            <source>El 17 de marzo de 1953, una explosión nuclear arrojó algo del segundo piso de una casa construida en Nevada Proving Grounds. La prueba, llamada "Annie", era parte de la operación más grande (Up...</source>
+            <target>On March 17, 1953, a nuclear explosion threw something from the second floor of a house built in Nevada Proving Grounds. The test, called "Annie", was part of the largest operation (Up ...</target>
+         </trans-unit>
+         <trans-unit id="27">
+            <source>0,000 000 000 000 000 02 segundos, o 20 milmillonésimas de una milmillonésima de segundo, es el tiempo que tarda el electrón en abandonar el átomo. Un nivel de precisión que ha sido medido por in...</source>
+            <target>0,000,000,000,000,000 02 seconds, or 20 billionths of a billionth of a second, is the time it takes the electron to leave the atom. A level of accuracy that has been measured by in ...</target>
+         </trans-unit>
+         <trans-unit id="28">
+            <source>Hay quienes abominan de los gimnasios como espacios públicos y, por extensión, de cualquier ejercicio físico. No comprenden esa sensación de euforia o placer que dicen muchos sentir tras el esfuer...</source>
+            <target>There are those who abominate gymnasiums as public spaces and, by extension, any physical exercise. They do not understand that feeling of euphoria or pleasure that many people feel after the effort ...</target>
+         </trans-unit>
+         <trans-unit id="29">
+            <source>En promedio, unas 540 personas al año son las víctimas de las erupciones volcánicas. Entre 1500 y 2017, más de 278.000 personas. Son los datos que se desprenden de un estudio llevado a cabo por in...</source>
+            <target>On average, some 540 people a year are the victims of volcanic eruptions. Between 1500 and 2017, more than 278,000 people. They are the data that come from a study carried out by in ...</target>
+         </trans-unit>
+         <trans-unit id="30">
+            <source>El viejo manuscrito indio de Bakhshali, texto contiene el registro más antiguo del número cero, data del siglo III o IV, según las últimas dataciones por radiocarbono. Es decir, que el número ...</source>
+            <target>The old Indian manuscript of Bakhshali, text contains the oldest record of the number zero, dates from the third or fourth century, according to the latest radiocarbon dating. That is, the number ...</target>
+         </trans-unit>
+         <trans-unit id="31">
+            <source>No sé si lo recordarás pero cuando yo era pequeña, aun ni pensaba en estudiar Nutrición y sabía que lo peor en la dieta eran las grasas, que era lo que debía limitar mi mama si quería adelgazar...</source>
+            <target>I do not know if you will remember it but when I was little, I did not even think about studying Nutrition and I knew that the worst thing in my diet was fats, which was what I had to limit my breast if I wanted to lose weight ...</target>
+         </trans-unit>
+         <trans-unit id="32">
+            <source>Pequeñas escamas puntiagudas incrustadas en la piel llamadas "dentículos dérmicos", semejan dientes irregulares. Y es que, estas escamas de un antiguo linaje (tiburones, rayas y mantarrayas) posee ...</source>
+            <target>Small, pointed scales embedded in the skin called "dermal denticles" resemble irregular teeth. And is that, these scales of an ancient lineage (sharks, rays and stingrays) has ...</target>
+         </trans-unit>
+         <trans-unit id="33">
+            <source>Estamos asistiendo a una avalancha de acusaciones de acoso sexual, sobre todo en el ámbito del star system, lo que ha aumentado la conciencia de la prevalencia del acoso sexual. Sin embargo, no ex...</source>
+            <target>We are witnessing an avalanche of accusations of sexual harassment, especially in the area of the star system, which has increased awareness of the prevalence of sexual harassment. However, not ex ...</target>
+         </trans-unit>
+         <trans-unit id="34">
+            <source>Cuando un fragmento de tiocianato de mercurio (un compuesto de mercurio, azufre, carbono y nitrógeno que también se conoce como “Serpiente del faraón”) empieza a arder, se descompone en su prop...</source>
+            <target>When a fragment of mercury thiocyanate (a compound of mercury, sulfur, carbon and nitrogen that is also known as "Pharaoh's Serpent") begins to burn, it decomposes in its prop ...</target>
+         </trans-unit>
+         <trans-unit id="35">
+            <source>Una nueva forma de construir una computadora cuántica usando un solo átomo ha sido propuesta teóricamente por Hannes Pichler y sus colegas, del Instituto de Física Atómica, Molecular y Óptica Te...</source>
+            <target>A new way to build a quantum computer using a single atom has been proposed theoretically by Hannes Pichler and his colleagues, from the Institute of Atomic, Molecular and Optical Physics Te ...</target>
+         </trans-unit>
+         <trans-unit id="36">
+            <source>A fin de desarrollar ordenadores más potentes y robots más inteligentes, China ha construido Nano-X, la mayor instalación del mundo de investigación multifuncional para nanociencia y nanotecnolog�...</source>
+            <target>In order to develop more powerful computers and smarter robots, China has built Nano-X, the world's largest multifunctional research facility for nanoscience and nanotechnology.</target>
+         </trans-unit>
+         <trans-unit id="37">
+            <source>Live a year in 4 minutes de la Fundación Wikimedia nos enseña lo más relevante que se ha editado en la enciclopedia Wikipedia durante el año 2015. Podéis ver el resumen recopilatorio en forma de ...</source>
+            <target>Live a year in 4 minutes of the Wikimedia Foundation teaches us the most relevant that has been published in the Wikipedia encyclopedia during 2015. You can see the summary compilation in the form of ...</target>
+         </trans-unit>
+         <trans-unit id="38">
+            <source>A diferencia de los robots rígidos, los robots blandos pueden reproducir el movimiento natural. Según un desarrollo publicado en Proceedings of the National Academy of Sciences (PNAS) por parte d...</source>
+            <target>Unlike rigid robots, soft robots can reproduce natural movement. According to a development published in Proceedings of the National Academy of Sciences (PNAS) by ...</target>
+         </trans-unit>
+         <trans-unit id="39">
+            <source>Robert McHenry, un antiguo editor de la Enciclopedia Británica, comparó Wikipedia con un baño público. El autor de The Cult of the Amateur (El culto del amateur), Andrew Keen, comparó a los blogg...</source>
+            <target>Robert McHenry, a former editor of the Encyclopedia Britannica, compared Wikipedia to a public toilet. The author of The Cult of the Amateur, Andrew Keen, compared the blogg ...</target>
+         </trans-unit>
+         <trans-unit id="40">
+            <source>La producción masiva de tejidos humanos como la piel, cartílagos e hígado, podría estar a la vuelta de la esquina gracias al desarrollo de una nueva impresora 3D por parte de investigadores e inge...</source>
+            <target>The mass production of human tissues such as skin, cartilage and liver, could be just around the corner thanks to the development of a new 3D printer by researchers and inge ...</target>
+         </trans-unit>
+         <trans-unit id="41">
+            <source>Quienes hayan leído uno de los máximos exponentes de la ciencia ficción que explota el sentido de la maravilla, como es Cita con Rama, de Arthur C. Clarke, no dejará de ver ciertos paralelismos co...</source>
+            <target>Those who have read one of the greatest exponents of science fiction that exploits the meaning of wonder, such as Cita con Rama, by Arthur C. Clarke, will not fail to see certain parallels with ...</target>
+         </trans-unit>
+         <trans-unit id="42">
+            <source>Ocultar artículo</source>
+            <target>Hide article</target>
+         </trans-unit>
+         <trans-unit id="43">
+            <source>BLOG CIENTÍFICO</source>
+            <target>SCIENTIFIC BLOG</target>
+         </trans-unit>
+         <trans-unit id="44">
+            <source>Anterior Imagen</source>
+            <target>Previous Image</target>
+         </trans-unit>
+         <trans-unit id="45">
+            <source>Siguiente Imagen</source>
+            <target>Next Image</target>
+         </trans-unit>
+         <trans-unit id="46">
+            <source>Ocultar Panel</source>
+            <target>Hide Panel</target>
+         </trans-unit>
+         <trans-unit id="47">
+            <source>INICIO</source>
+            <target>START</target>
+         </trans-unit>
+         <trans-unit id="48">
+            <source>TEMAS</source>
+            <target>THEMES</target>
+         </trans-unit>
+         <trans-unit id="49">
+            <source>ARTICULOS</source>
+            <target>ARTICLES</target>
+         </trans-unit>
+         <trans-unit id="50">
+            <source>AUTORES</source>
+            <target>AUTHORS</target>
+         </trans-unit>
+         <trans-unit id="51">
+            <source>NOMBRE DEL TEMA</source>
+            <target>NAME OF THE TOPIC</target>
+         </trans-unit>
+         <trans-unit id="52">
+            <source>MIRAR ARTICULOS DEL TEMA</source>
+            <target>SEE ARTICLES OF THE TOPIC</target>
+         </trans-unit>
+         <trans-unit id="53">
+            <source>ENTRAR</source>
+            <target>ENTER TO</target>
+         </trans-unit>
+         <trans-unit id="54">
+            <source>ANTROPOLOGÍA</source>
+            <target>ANTHROPOLOGY</target>
+         </trans-unit>
+         <trans-unit id="55">
+            <source>ASTRONOMÍA</source>
+            <target>ASTRONOMY</target>
+         </trans-unit>
+         <trans-unit id="56">
+            <source>BIOLOGÍA</source>
+            <target>BIOLOGY</target>
+         </trans-unit>
+         <trans-unit id="57">
+            <source>FÍSICA</source>
+            <target>PHYSICAL</target>
+         </trans-unit>
+         <trans-unit id="58">
+            <source>GENÉTICA</source>
+            <target>GENETICS</target>
+         </trans-unit>
+         <trans-unit id="59">
+            <source>GEOLOGÍA</source>
+            <target>GEOLOGY</target>
+         </trans-unit>
+         <trans-unit id="60">
+            <source>MATEMÁTICAS</source>
+            <target>MATHEMATICS</target>
+         </trans-unit>
+         <trans-unit id="61">
+            <source>MEDICINA</source>
+            <target>MEDICINE</target>
+         </trans-unit>
+         <trans-unit id="62">
+            <source>PALEONTOLOGÍA</source>
+            <target>PALEONTOLOGY</target>
+         </trans-unit>
+         <trans-unit id="63">
+            <source>PSICOLOGÍA</source>
+            <target>PSYCHOLOGY</target>
+         </trans-unit>
+         <trans-unit id="64">
+            <source>QUÍMICA</source>
+            <target>CHEMISTRY</target>
+         </trans-unit>
+         <trans-unit id="65">
+            <source>COMPUTACIÓN</source>
+            <target>COMPUTING</target>
+         </trans-unit>
+         <trans-unit id="66">
+            <source>NANOTECNOLOGÍA</source>
+            <target>NANOTECHNOLOGY</target>
+         </trans-unit>
+         <trans-unit id="67">
+            <source>PROGRAMACIÓN</source>
+            <target>PROGRAMMING</target>
+         </trans-unit>
+         <trans-unit id="68">
+            <source>ROBÓTICA</source>
+            <target>ROBOTICS</target>
+         </trans-unit>
+         <trans-unit id="69">
+            <source>TECNOLOGÍA</source>
+            <target>TECHNOLOGY</target>
+         </trans-unit>
+         <trans-unit id="70">
+            <source>TELOCOMUNICACIONES</source>
+            <target>TELECOMMUNICATIONS</target>
+         </trans-unit>
+         <trans-unit id="71">
+            <source>NOMBRE DEL ARTICULO</source>
+            <target>ARTICLE NAME</target>
+         </trans-unit>
+         <trans-unit id="72">
+            <source>MIRAR ARTICULO</source>
+            <target>SEE ARTICLE</target>
+         </trans-unit>
+         <trans-unit id="73">
+            <source>NOMBRE DEL AUTOR</source>
+            <target>AUTHOR'S NAME</target>
+         </trans-unit>
+         <trans-unit id="74">
+            <source>MIRAR ARTICULOS DEL AUTOR</source>
+            <target>LOOK AT THE AUTHOR'S ARTICLES</target>
+         </trans-unit>
+      </body>
+    </file>
+</xliff>
